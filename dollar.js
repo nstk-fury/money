@@ -4,6 +4,11 @@ export default class Dollar {
     }
 
     times(multiplier) {
-        this.amount *= multiplier;
+        return new Dollar(this.amount * multiplier);
+    }
+
+    equals(obj) {
+        const dollar = obj;
+        return this.amount === dollar.amount;
     }
 }
