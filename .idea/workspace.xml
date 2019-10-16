@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5bcfb0-71a7-4dc1-b5e0-240d7ddc446b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/wycash/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/wycash/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/wycash/DollarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/wycash/DollarTest.java" afterDir="false" />
     </list>
@@ -23,11 +24,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/wycash/Dollar.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
                   <folding>
                     <element signature="e#93#94#0" expanded="true" />
                     <element signature="e#128#129#0" expanded="true" />
+                    <element signature="e#165#166#0" expanded="true" />
+                    <element signature="e#217#218#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -40,8 +43,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/wycash/DollarTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -78,8 +81,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="112" />
+    <option name="y" value="28" />
+    <option name="width" value="928" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -171,7 +176,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DollarTest.testEquality">
+    <configuration name="DollarTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="money" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wycash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wycash" />
+      <option name="MAIN_CLASS_NAME" value="wycash.DollarTest" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DollarTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="money" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wycash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wycash" />
+      <option name="MAIN_CLASS_NAME" value="wycash.DollarTest" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="junitTest" type="JUnit" factoryName="JUnit">
       <module name="money" />
       <option name="PACKAGE_NAME" value="wycash" />
@@ -183,6 +220,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.junitTest" />
+      <item itemvalue="JUnit.DollarTest.testEquality" />
+      <item itemvalue="JUnit.DollarTest.testMultiplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DollarTest.testEquality" />
+        <item itemvalue="JUnit.DollarTest.testMultiplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -194,26 +242,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571207133158</updated>
-      <workItem from="1571207136470" duration="2115000" />
+      <workItem from="1571207136470" duration="3463000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="junitTest - 2019.10.16 at 15h 48m 51s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="junitTest - 2019.10.16 at 15h 49m 07s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="junitTest - 2019.10.16 at 15h 51m 09s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="junitTest - 2019.10.16 at 16h 00m 22s.xml">
       <configuration name="junitTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="junitTest - 2019.10.16 at 16h 00m 58s.xml">
+      <configuration name="junitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="junitTest - 2019.10.16 at 16h 16m 40s.xml">
+      <configuration name="junitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 17m 12s.xml">
+      <configuration name="DollarTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testMultiplication - 2019.10.16 at 16h 17m 16s.xml">
+      <configuration name="DollarTest.testMultiplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 17m 53s.xml">
+      <configuration name="DollarTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 19m 12s.xml">
+      <configuration name="DollarTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 19m 42s.xml">
+      <configuration name="DollarTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testMultiplication - 2019.10.16 at 16h 19m 50s.xml">
+      <configuration name="DollarTest.testMultiplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 23m 56s.xml">
+      <configuration name="DollarTest.testEquality" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2115000" />
+    <option name="totallyTimeSpent" value="3463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -224,7 +290,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16452074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32871014" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -256,8 +322,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/wycash/DollarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -266,11 +332,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/wycash/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
           </folding>
         </state>
       </provider>
