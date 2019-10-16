@@ -1,5 +1,6 @@
 {
     "env": {
+        "browser": true,
         "es6": true,
         "node": true
     },
@@ -15,5 +16,13 @@
         "sourceType": "module"
     },
     "rules": {
-    }
+        "indent": ["error", 4],
+        "import/extensions": [
+            "error",
+            "always",
+            {
+                "mjs": "never"
+            }
+        ],
+    },
 }
