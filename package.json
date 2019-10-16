@@ -1,0 +1,25 @@
+{
+  "name": "money",
+  "version": "1.0.0",
+  "description": "",
+  "main": "money.test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nstk-fury/money.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nstk-fury/money/issues"
+  },
+  "homepage": "https://github.com/nstk-fury/money#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
