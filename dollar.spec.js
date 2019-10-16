@@ -8,4 +8,9 @@ describe("Dollar Example", () => {
         proudct = five.times(3);
         expect(15 === proudct.amount).toBeTruthy();
     });
+
+    test("testEquality", () => {
+        expect(new Dollar(5).equals(new Dollar(5))).toBeTruthy();
+        expect(new Dollar(5).equals(new Dollar(6))).toBeTruthy();
+    });
 });
