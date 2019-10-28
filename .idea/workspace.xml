@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5bcfb0-71a7-4dc1-b5e0-240d7ddc446b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/wycash/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/wycash/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/wycash/DollarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/wycash/DollarTest.java" afterDir="false" />
     </list>
@@ -24,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/wycash/Dollar.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+                <state relative-caret-position="285">
+                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
                   <folding>
                     <element signature="e#93#94#0" expanded="true" />
                     <element signature="e#128#129#0" expanded="true" />
@@ -43,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/wycash/DollarTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="31" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -176,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DollarTest.testEquality">
+  <component name="RunManager" selected="JUnit.DollarTest.testMultiplication">
     <configuration name="DollarTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="money" />
       <extension name="coverage">
@@ -227,8 +226,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DollarTest.testEquality" />
         <item itemvalue="JUnit.DollarTest.testMultiplication" />
+        <item itemvalue="JUnit.DollarTest.testEquality" />
       </list>
     </recent_temporary>
   </component>
@@ -242,26 +241,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571207133158</updated>
-      <workItem from="1571207136470" duration="3463000" />
+      <workItem from="1571207136470" duration="4176000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="junitTest - 2019.10.16 at 16h 00m 22s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="junitTest - 2019.10.16 at 16h 00m 58s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="junitTest - 2019.10.16 at 16h 16m 40s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 17m 12s.xml">
-      <configuration name="DollarTest.testEquality" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DollarTest_testMultiplication - 2019.10.16 at 16h 17m 16s.xml">
-      <configuration name="DollarTest.testMultiplication" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 17m 53s.xml">
       <configuration name="DollarTest.testEquality" configurationId="JUnit" />
     </history-entry>
@@ -277,9 +261,24 @@
     <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 23m 56s.xml">
       <configuration name="DollarTest.testEquality" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DollarTest_testEquality - 2019.10.16 at 16h 24m 35s.xml">
+      <configuration name="DollarTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testMultiplication - 2019.10.16 at 16h 32m 27s.xml">
+      <configuration name="DollarTest.testMultiplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testMultiplication - 2019.10.16 at 16h 33m 03s.xml">
+      <configuration name="DollarTest.testMultiplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testMultiplication - 2019.10.16 at 16h 34m 16s.xml">
+      <configuration name="DollarTest.testMultiplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DollarTest_testMultiplication - 2019.10.16 at 16h 34m 27s.xml">
+      <configuration name="DollarTest.testMultiplication" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3463000" />
+    <option name="totallyTimeSpent" value="4176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -300,7 +299,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,8 +321,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/wycash/DollarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -332,8 +331,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/wycash/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
