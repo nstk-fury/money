@@ -1,0 +1,5 @@
+package wycash;
+
+interface Expression {
+
+}

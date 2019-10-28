@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/wycash/Money.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
                   <folding>
                     <element signature="e#285#286#0" expanded="true" />
                     <element signature="e#318#319#0" expanded="true" />
@@ -36,6 +36,21 @@
                     <element signature="e#537#538#0" expanded="true" />
                     <element signature="e#710#711#0" expanded="true" />
                     <element signature="e#755#756#0" expanded="true" />
+                    <element signature="e#819#820#0" expanded="true" />
+                    <element signature="e#844#845#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/wycash/Bank.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#89#90#0" expanded="true" />
+                    <element signature="e#116#117#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -54,15 +69,24 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/wycash/Franc.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                   <folding>
                     <element signature="e#91#92#0" expanded="true" />
                     <element signature="e#112#113#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/wycash/Expression.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -74,8 +98,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/wycash/DollarTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+                <state relative-caret-position="361">
+                  <caret line="39" column="21" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -91,6 +115,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -108,8 +133,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/wycash/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/wycash/Dollar.java" />
-        <option value="$PROJECT_DIR$/src/main/wycash/Money.java" />
         <option value="$PROJECT_DIR$/src/test/wycash/DollarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/wycash/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/wycash/Money.java" />
+        <option value="$PROJECT_DIR$/src/main/wycash/Bank.java" />
       </list>
     </option>
   </component>
@@ -280,17 +307,11 @@
       <option name="presentableId" value="Default" />
       <updated>1571207133158</updated>
       <workItem from="1571207136470" duration="4176000" />
-      <workItem from="1572242899772" duration="7208000" />
+      <workItem from="1572242899772" duration="10061000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="junitTest - 2019.10.28 at 22h 19m 23s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="junitTest - 2019.10.28 at 22h 20m 07s.xml">
-      <configuration name="junitTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="junitTest - 2019.10.28 at 22h 22m 11s.xml">
       <configuration name="junitTest" configurationId="JUnit" />
     </history-entry>
@@ -315,9 +336,15 @@
     <history-entry file="junitTest - 2019.10.28 at 23h 29m 16s.xml">
       <configuration name="junitTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="junitTest - 2019.10.29 at 01h 31m 26s.xml">
+      <configuration name="junitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="junitTest - 2019.10.29 at 01h 43m 00s.xml">
+      <configuration name="junitTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11384000" />
+    <option name="totallyTimeSpent" value="14237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -358,22 +385,21 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/wycash/Money.java">
+    <entry file="file://$PROJECT_DIR$/src/main/wycash/Franc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/wycash/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -388,23 +414,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/wycash/Franc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/wycash/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/wycash/DollarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/wycash/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
