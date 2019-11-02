@@ -12,44 +12,32 @@ class Money {
         return new Franc(amount, "CHF");
     }
 
+    getCurrency() {
+        return this.currency;
+    }
+
     equals(obj) {
         const money = obj;
         return (
             this.amount === money.amount &&
-            this.constructor.name === money.constructor.name
+            this.getCurrency() === money.getCurrency()
         );
     }
 
-    times(multiplier) {}
-
-    currency() {}
+    times(multiplier) {
+        return new Money(this.amount * multiplier, this.currency);
+    }
 }
 
 class Dollar extends Money {
     constructor(amount, currency) {
         super(amount, currency);
     }
-
-    times(multiplier) {
-        return Money.dollar(this.amount * multiplier);
-    }
-
-    currency() {
-        return this.currency;
-    }
 }
 
 class Franc extends Money {
     constructor(amount, currency) {
         super(amount, currency);
-    }
-
-    times(multiplier) {
-        return Money.franc(this.amount * multiplier);
-    }
-
-    currency() {
-        return this.currency;
     }
 }
 
