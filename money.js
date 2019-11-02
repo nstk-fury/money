@@ -1,3 +1,6 @@
+import Dollar from "./dollar";
+import Franc from "./franc";
+
 export default class Money {
     constructor(amount) {
         this.amount = amount;
@@ -6,5 +9,15 @@ export default class Money {
     equals(obj) {
         const money = obj;
         return this.amount === money.amount;
+    }
+
+    times(multiplier) {}
+
+    static dollar(amount) {
+        return new Dollar(amount);
+    }
+
+    static franc(amount) {
+        return new Franc(amount);
     }
 }
