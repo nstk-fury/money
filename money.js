@@ -1,3 +1,15 @@
+class Sum {
+    constructor(augend, addend) {
+        this.augend = augend;
+        this.addend = addend;
+    }
+
+    reduce(to) {
+        const amount = this.augend.amount + this.addend.amount;
+        return new Money(amount, to);
+    }
+}
+
 class Money {
     constructor(amount, currency) {
         this.amount = amount;
@@ -29,7 +41,11 @@ class Money {
     }
 
     plus(addend) {
-        return new Money(this.amount + addend.amount, this.currency);
+        return new Sum(this, addend);
+    }
+
+    reduce(to) {
+        return this;
     }
 }
 
@@ -37,8 +53,8 @@ class Bank {
     constructor() {}
 
     reduce(source, to) {
-        return Money.dollar(10);
+        return source.reduce(to);
     }
 }
 
-export { Money, Bank };
+export { Money, Bank, Sum };
