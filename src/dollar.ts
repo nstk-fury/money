@@ -3,7 +3,10 @@ export class Money {
 
   equals(object: Object) {
     const money: Money = <Money>object;
-    return this.amount === money.amount;
+    return (
+      this.amount === money.amount &&
+      (this as any).constructor.name === (money as any).constructor.name
+    );
   }
 }
 
