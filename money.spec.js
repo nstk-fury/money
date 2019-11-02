@@ -10,16 +10,11 @@ describe("Money Example Test", () => {
     test("testEquality", () => {
         expect(Money.dollar(5).equals(Money.dollar(5))).toBeTruthy();
         expect(Money.dollar(5).equals(Money.dollar(6))).toBeFalsy();
-        expect(Money.franc(5).equals(Money.franc(5))).toBeTruthy();
-        expect(Money.franc(5).equals(Money.franc(6))).toBeFalsy();
         expect(Money.franc(5).equals(Money.dollar(5))).toBeFalsy();
     });
 
-    test("testFrancMultiplication", () => {
-        const five = Money.franc(5);
-        expect(Money.franc(10).equals(five.times(2)));
-        expect(Money.franc(15).equals(five.times(3)));
+    test("testCurrency", () => {
+        expect("USD").toEqual(Money.dollar(1).getCurrency());
+        expect("CHF").toEqual(Money.franc(1).getCurrency());
     });
-
-    test("tsetCurrency", () => {});
 });
