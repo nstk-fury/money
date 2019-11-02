@@ -11,6 +11,11 @@ export default class Franc extends Money {
 
     equals(obj) {
         const money = obj;
-        return this.amount === money.amount;
+        console.log("this.constructor.name", this.constructor.name);
+        console.log("money.constructor.name", money.constructor.name);
+        return (
+            this.amount === money.amount &&
+            this.constructor.name === money.constructor.name
+        );
     }
 }
