@@ -1,14 +1,11 @@
-export default class Dollar {
+import Money from "./money";
+
+export default class Dollar extends Money {
     constructor(amount) {
-        this.amount = amount;
+        super(amount);
     }
 
     times(multiplier) {
         return new Dollar(this.amount * multiplier);
-    }
-
-    equals(obj) {
-        const dollar = obj;
-        return this.amount === dollar.amount;
     }
 }
