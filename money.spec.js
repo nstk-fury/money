@@ -1,4 +1,4 @@
-import { Money } from "./money";
+import { Money, Bank } from "./money";
 
 describe("Money Example Test", () => {
     test("testMultiplication", () => {
@@ -16,5 +16,13 @@ describe("Money Example Test", () => {
     test("testCurrency", () => {
         expect("USD").toEqual(Money.dollar(1).getCurrency());
         expect("CHF").toEqual(Money.franc(1).getCurrency());
+    });
+
+    test("testSimpleAddition", () => {
+        const five = Money.dollar(5);
+        const sum = five.plus(five);
+        const bank = new Bank();
+        const reduced = bank.reduce(sum, "USD");
+        expect(Money.dollar(10)).toEqual(reduced);
     });
 });

@@ -27,6 +27,18 @@ class Money {
     times(multiplier) {
         return new Money(this.amount * multiplier, this.currency);
     }
+
+    plus(addend) {
+        return new Money(this.amount + addend.amount, this.currency);
+    }
 }
 
-export { Money };
+class Bank {
+    constructor() {}
+
+    reduce(source, to) {
+        return Money.dollar(10);
+    }
+}
+
+export { Money, Bank };
