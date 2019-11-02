@@ -1,43 +1,30 @@
-export abstract class Money {
+export class Money {
+  protected _currency: string;
   protected amount: number;
 
-  static dollar(amount: number): Dollar {
-    return new Dollar(amount);
+  constructor(amount: number, currency: string) {
+    this.amount = amount;
+    this._currency = currency;
   }
 
-  static franc(amount: number): Franc {
-    return new Franc(amount);
+  static dollar(amount: number): Money {
+    return new Money(amount, "USD");
   }
 
-  abstract times(multiplier: number): Money;
+  static franc(amount: number): Money {
+    return new Money(amount, "CHF");
+  }
+
+  times(multiplier: number): Money {
+    return new Money(this.amount * multiplier, this._currency);
+  }
+
+  currency(): string {
+    return this._currency;
+  }
 
   equals(object: Object) {
     const money: Money = <Money>object;
-    return (
-      this.amount === money.amount &&
-      (this as any).constructor.name === (money as any).constructor.name
-    );
-  }
-}
-
-export class Dollar extends Money {
-  constructor(amount: number) {
-    super();
-    this.amount = amount;
-  }
-
-  times(multiplier: number): Money {
-    return new Dollar(this.amount * multiplier);
-  }
-}
-
-export class Franc extends Money {
-  constructor(amount: number) {
-    super();
-    this.amount = amount;
-  }
-
-  times(multiplier: number): Money {
-    return new Franc(this.amount * multiplier);
+    return this.amount === money.amount && this.currency() === money.currency();
   }
 }
