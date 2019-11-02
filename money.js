@@ -4,7 +4,7 @@ class Sum {
         this.addend = addend;
     }
 
-    reduce(to) {
+    reduce(bank, to) {
         const amount = this.augend.amount + this.addend.amount;
         return new Money(amount, to);
     }
@@ -44,16 +44,29 @@ class Money {
         return new Sum(this, addend);
     }
 
-    reduce(to) {
-        return this;
+    reduce(bank, to) {
+        const rate = bank.rate(this.currency, to);
+        return new Money(this.amount / rate, to);
     }
 }
 
 class Bank {
-    constructor() {}
+    constructor() {
+        this.rates = new Map();
+    }
 
     reduce(source, to) {
-        return source.reduce(to);
+        return source.reduce(this, to);
+    }
+
+    rate(from, to) {
+        if (from === to) return 1;
+        const rate = this.rates.get(from + to);
+        return rate;
+    }
+
+    addRate(from, to, rate) {
+        this.rates.set(from + to, rate);
     }
 }
 
