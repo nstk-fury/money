@@ -59,4 +59,24 @@ describe("Money Example Test", () => {
         const result = bank.reduce(fiveBucks.plus(tenFrancs), "USD");
         expect(Money.dollar(10)).toEqual(result);
     });
+
+    test("testSumPlusMoney", () => {
+        const fiveBucks = Money.dollar(5);
+        const tenFrancs = Money.franc(10);
+        const bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+        const sum = new Sum(fiveBucks, tenFrancs).plus(fiveBucks);
+        const result = bank.reduce(sum, "USD");
+        expect(Money.dollar(15)).toEqual(result);
+    });
+
+    test("testSumTimes", () => {
+        const fiveBucks = Money.dollar(5);
+        const tenFrancs = Money.franc(10);
+        const bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+        const sum = new Sum(fiveBucks, tenFrancs).times(2);
+        const result = bank.reduce(sum, "USD");
+        expect(Money.dollar(20)).toEqual(result);
+    });
 });
