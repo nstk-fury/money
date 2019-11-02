@@ -1,5 +1,15 @@
-export class Money {
+export abstract class Money {
   protected amount: number;
+
+  static dollar(amount: number): Dollar {
+    return new Dollar(amount);
+  }
+
+  static franc(amount: number): Franc {
+    return new Franc(amount);
+  }
+
+  abstract times(multiplier: number): Money;
 
   equals(object: Object) {
     const money: Money = <Money>object;
@@ -16,7 +26,7 @@ export class Dollar extends Money {
     this.amount = amount;
   }
 
-  times(multiplier: number): Dollar {
+  times(multiplier: number): Money {
     return new Dollar(this.amount * multiplier);
   }
 }
@@ -27,7 +37,7 @@ export class Franc extends Money {
     this.amount = amount;
   }
 
-  times(multiplier: number): Franc {
+  times(multiplier: number): Money {
     return new Franc(this.amount * multiplier);
   }
 }
